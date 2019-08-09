@@ -1,0 +1,24 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc index.ts -w --sourceMap",
+    "serve": "python -m SimpleHTTPServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samanthamcgrath/generators.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samanthamcgrath/generators/issues"
+  },
+  "homepage": "https://github.com/samanthamcgrath/generators#readme",
+  "dependencies": {
+    "typescript": "^3.5.3"
+  }
+}
